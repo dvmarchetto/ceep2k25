@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -10,6 +11,7 @@ body {
     line-height: 1.6;
 }
 
+
 header {
     background-color: #007bff;
     padding: 20px;
@@ -18,10 +20,12 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
 }
 
+
 header h1 {
     margin: 0;
     font-size: 2rem;
 }
+
 
 nav ul {
     list-style-type: none;
@@ -31,9 +35,11 @@ nav ul {
     justify-content: center;
 }
 
+
 nav ul li {
     margin: 0 15px;
 }
+
 
 nav ul li a {
     color: white;
@@ -43,9 +49,11 @@ nav ul li a {
     transition: color 0.3 ease;
 }
 
+
 nav ul li a:hover {
     color: #f0f0f0;
 }
+
 
 main {
     padding: 20px;
@@ -56,9 +64,11 @@ main {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+
 section {
     margin-bottom: 30px;
 }
+
 
 section h2 {
     font-size: 1.8rem;
@@ -68,6 +78,7 @@ section h2 {
     padding-bottom: 5px;
 }
 
+
 .card {
     background-color: #e9ecef;
     padding: 15px;
@@ -76,11 +87,13 @@ section h2 {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 } 
 
+
 .card h3 {
     font-size: 1.2rem;
     margin-bottom: 10px;
     color: #007bff;
 }
+
 
 .form-container {
     background-color: #e9ecef;
@@ -89,10 +102,12 @@ section h2 {
     margin-top: 20px;
 }
 
+
 .form-container h2 {
     color: #007bff;
     margin-bottom: 20px;
 }
+
 
 form label {
     display: block;
@@ -100,6 +115,7 @@ form label {
     font-weight: bold;
     color: #555;
 }
+
 
 form input, form textarea, form button {
     width: 100%;
@@ -109,6 +125,7 @@ form input, form textarea, form button {
     border-radius: 5px;
     box-sizing: border-box;
 }
+
 
 form button {
     background-color: #007bff;
@@ -120,14 +137,40 @@ form button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
+
+form button:hover {
     background-color: #0056b3;
 }
+
 
 footer {
     background-color: #343a40;
     color: white;
     text-align: center;
     padding: 20px;
-       
+    margin-top: 30px;
+    border-top: 1 px solid #495057;
 }
+
+
+@media (max-width: 768px) {
+    
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    section h2 {
+        font-size: 1.6rem;
+    }
+}
+
+
+
